@@ -11,9 +11,11 @@
         This is layout.
     </div>
     <div> 
-        @RenderSection("Header")
-        @RenderSection("Body")
-        @RenderSection("Footer")
+        @RenderBody()
+        @RenderSection("Header", required:false)
+        @RenderSection("Body", required: false)
+       
+        @RenderSection("Footer", required: false)
     </div>
 </body>
 </html>
