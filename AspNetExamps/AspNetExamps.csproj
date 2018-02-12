@@ -145,6 +145,8 @@
     <Compile Include="Controllers\ExternalMethodController.cs" />
     <Compile Include="Controllers\FormsController.cs" />
     <Compile Include="Controllers\HelperMethodsController.cs" />
+    <Compile Include="Controllers\ListController.cs" />
+    <Compile Include="Controllers\ReductFormController.cs" />
     <Compile Include="Controllers\SectionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -153,6 +155,8 @@
     <Compile Include="Infastructure\CustomHelperMethods.cs" />
     <Compile Include="Models\ForView\Product.cs" />
     <Compile Include="Models\ForView\Products.cs" />
+    <Compile Include="Models\Lil.cs" />
+    <Compile Include="Models\TaskModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -195,6 +199,11 @@
     <Content Include="Views\HelperMethods\Index.cshtml" />
     <Content Include="Views\ExternalMethod\Index.cshtml" />
     <Content Include="Views\Forms\Index.cshtml" />
+    <Content Include="Views\ReductForm\Index.cshtml" />
+    <Content Include="Views\ReductForm\Create.cshtml" />
+    <Content Include="Views\List\Index.cshtml" />
+    <Content Include="Views\Forms\Selected.cshtml" />
+    <Content Include="Views\List\Selected.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
