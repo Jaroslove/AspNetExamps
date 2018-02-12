@@ -143,6 +143,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ExternalMethodController.cs" />
+    <Compile Include="Controllers\FormsController.cs" />
     <Compile Include="Controllers\HelperMethodsController.cs" />
     <Compile Include="Controllers\SectionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -193,6 +194,7 @@
     <Content Include="Views\Section\_ShowTable.cshtml" />
     <Content Include="Views\HelperMethods\Index.cshtml" />
     <Content Include="Views\ExternalMethod\Index.cshtml" />
+    <Content Include="Views\Forms\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
