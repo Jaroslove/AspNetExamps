@@ -142,12 +142,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ExternalMethodController.cs" />
     <Compile Include="Controllers\HelperMethodsController.cs" />
     <Compile Include="Controllers\SectionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infastructure\CustomHelperMethods.cs" />
     <Compile Include="Models\ForView\Product.cs" />
     <Compile Include="Models\ForView\Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -190,6 +192,7 @@
     <Content Include="Views\Section\_Index.cshtml" />
     <Content Include="Views\Section\_ShowTable.cshtml" />
     <Content Include="Views\HelperMethods\Index.cshtml" />
+    <Content Include="Views\ExternalMethod\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
