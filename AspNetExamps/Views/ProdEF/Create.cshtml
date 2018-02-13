@@ -1,0 +1,42 @@
+﻿@model AspNetExamps.Models.EF.Product
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+            <legend>
+                Product
+            </legend>
+
+            <div class="glyphicon-edit">
+                @Html.LabelFor(a => a.Name)
+            </div>
+            <div class="alert-danger">
+                @Html.EditorFor(a => a.Name)
+            </div>
+            <div class="glyphicon-align-center">
+                @Html.LabelFor(a => a.Price)
+            </div>
+            <div class="col-sm-push-8">
+                @Html.EditorFor(a => a.Price)
+            </div>
+            <p>
+                <input type="submit" value="Create"/>
+            </p>
+        </fieldset>
+    }
+</body>
+</html>

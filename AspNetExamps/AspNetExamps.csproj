@@ -217,6 +217,7 @@
     <Content Include="Views\List\Selected.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\ProdEF\Index.cshtml" />
+    <Content Include="Views\ProdEF\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

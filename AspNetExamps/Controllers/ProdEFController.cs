@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AspNetExamps.Models.EF;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,6 +15,24 @@ namespace AspNetExamps.Controllers
         public ActionResult Index()
         {
             return View(db.Products.ToList());
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Products.Add(product);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return null;
         }
 
         protected override void Dispose(bool disposing)
