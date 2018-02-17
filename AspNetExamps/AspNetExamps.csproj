@@ -152,9 +152,11 @@
     <Compile Include="Controllers\FormsController.cs" />
     <Compile Include="Controllers\HelperMethodsController.cs" />
     <Compile Include="Controllers\ListController.cs" />
+    <Compile Include="Controllers\OwnScaffController.cs" />
     <Compile Include="Controllers\ProdEFController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ReductFormController.cs" />
+    <Compile Include="Controllers\ScuffOneController.cs" />
     <Compile Include="Controllers\SectionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -166,6 +168,8 @@
     <Compile Include="Models\ForView\Product.cs" />
     <Compile Include="Models\ForView\Products.cs" />
     <Compile Include="Models\Lil.cs" />
+    <Compile Include="Models\OwnScaffModels\Task.cs" />
+    <Compile Include="Models\OwnScaffModels\TaskContext.cs" />
     <Compile Include="Models\Pro\Product.cs" />
     <Compile Include="Models\TaskModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -218,6 +222,16 @@
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\ProdEF\Index.cshtml" />
     <Content Include="Views\ProdEF\Create.cshtml" />
+    <Content Include="Views\ScuffOne\Create.cshtml" />
+    <Content Include="Views\ScuffOne\Delete.cshtml" />
+    <Content Include="Views\ScuffOne\Details.cshtml" />
+    <Content Include="Views\ScuffOne\Edit.cshtml" />
+    <Content Include="Views\ScuffOne\Index.cshtml" />
+    <Content Include="Views\OwnScaff\Index.cshtml" />
+    <Content Include="Views\OwnScaff\Create.cshtml" />
+    <Content Include="Views\OwnScaff\Details.cshtml" />
+    <Content Include="Views\OwnScaff\Edit.cshtml" />
+    <Content Include="Views\OwnScaff\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
