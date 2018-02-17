@@ -170,6 +170,7 @@
     <Compile Include="Models\Lil.cs" />
     <Compile Include="Models\OwnScaffModels\Task.cs" />
     <Compile Include="Models\OwnScaffModels\TaskContext.cs" />
+    <Compile Include="Models\OwnScaffModels\TaskDbInitializer.cs" />
     <Compile Include="Models\Pro\Product.cs" />
     <Compile Include="Models\TaskModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
