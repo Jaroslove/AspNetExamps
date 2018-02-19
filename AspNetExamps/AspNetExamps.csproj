@@ -152,6 +152,7 @@
     <Compile Include="Controllers\FormsController.cs" />
     <Compile Include="Controllers\HelperMethodsController.cs" />
     <Compile Include="Controllers\ListController.cs" />
+    <Compile Include="Controllers\MBinderController.cs" />
     <Compile Include="Controllers\OwnScaffController.cs" />
     <Compile Include="Controllers\ProdEFController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
@@ -169,6 +170,7 @@
     <Compile Include="Models\ForView\Product.cs" />
     <Compile Include="Models\ForView\Products.cs" />
     <Compile Include="Models\Lil.cs" />
+    <Compile Include="Models\MBModel\Model.cs" />
     <Compile Include="Models\OwnScaffModels\Task.cs" />
     <Compile Include="Models\OwnScaffModels\TaskContext.cs" />
     <Compile Include="Models\OwnScaffModels\TaskDbInitializer.cs" />
@@ -236,6 +238,7 @@
     <Content Include="Views\OwnScaff\Delete.cshtml" />
     <Content Include="Views\STBinding\Index.cshtml" />
     <Content Include="Views\STBinding\ActionOne.cshtml" />
+    <Content Include="Views\MBinder\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
