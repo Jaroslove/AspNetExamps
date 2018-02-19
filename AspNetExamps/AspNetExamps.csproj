@@ -158,6 +158,7 @@
     <Compile Include="Controllers\ReductFormController.cs" />
     <Compile Include="Controllers\ScuffOneController.cs" />
     <Compile Include="Controllers\SectionController.cs" />
+    <Compile Include="Controllers\STBindingController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -233,6 +234,8 @@
     <Content Include="Views\OwnScaff\Details.cshtml" />
     <Content Include="Views\OwnScaff\Edit.cshtml" />
     <Content Include="Views\OwnScaff\Delete.cshtml" />
+    <Content Include="Views\STBinding\Index.cshtml" />
+    <Content Include="Views\STBinding\ActionOne.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
