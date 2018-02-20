@@ -15,6 +15,8 @@ namespace AspNetExamps
         {
             Database.SetInitializer(new AspNetExamps.Models.OwnScaffModels.TaskDbInitializer()); // auto init date base
 
+            ValueProviderFactories.Factories.Add(new Models.CookieValueProviderFactory());
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

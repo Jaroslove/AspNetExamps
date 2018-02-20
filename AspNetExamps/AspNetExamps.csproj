@@ -148,6 +148,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdvancedBinderController.cs" />
     <Compile Include="Controllers\ExternalMethodController.cs" />
     <Compile Include="Controllers\FormsController.cs" />
     <Compile Include="Controllers\HelperMethodsController.cs" />
@@ -165,6 +166,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infastructure\CustomHelperMethods.cs" />
+    <Compile Include="Models\CookieValueProvider.cs" />
     <Compile Include="Models\EF\Product.cs" />
     <Compile Include="Models\EF\ProductsContext.cs" />
     <Compile Include="Models\ForView\Product.cs" />
@@ -239,6 +241,7 @@
     <Content Include="Views\STBinding\Index.cshtml" />
     <Content Include="Views\STBinding\ActionOne.cshtml" />
     <Content Include="Views\MBinder\Index.cshtml" />
+    <Content Include="Views\AdvancedBinder\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
